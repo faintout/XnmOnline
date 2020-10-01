@@ -161,6 +161,8 @@ module.exports = {
   //     },
   //   },
   devServer: {
+    // 穿透配置
+    disableHostCheck: true,
     // overlay: {
     //   // 让浏览器 overlay 同时显示警告和错误
     //   warnings: true,
